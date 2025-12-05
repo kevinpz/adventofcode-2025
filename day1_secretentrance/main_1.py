@@ -10,6 +10,7 @@ def main():
                 steps *= -1
 
             pos = (pos + steps) % 100
+            # count how many time we end up at 0
             if pos == 0:
                 code +=1
 
